@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[newly create vendor page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[createvendoris pass]]>
+    </line>
+    <line>
+      <![CDATA[newly create vendor page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[quickcreatevendoris pass]]>
+    </line>
+    <line>
+      <![CDATA[searched vendor with category is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[vcatSearchis pass]]>
+    </line>
+    <line>
+      <![CDATA[searched vendor with email is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[vemailSearchis pass]]>
+    </line>
+    <line>
+      <![CDATA[searched vendor with name is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[vnameSearchis pass]]>
+    </line>
+    <line>
+      <![CDATA[searched vendor with vennumber is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[vnoSearchis pass]]>
+    </line>
+    <line>
+      <![CDATA[searched vendor with phoneno is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[vphnSearchis pass]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="195138" started-at="2019-11-13T09:17:38 IST" finished-at="2019-11-13T09:20:53 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="195138" started-at="2019-11-13T09:17:38 IST" finished-at="2019-11-13T09:20:53 IST">
+      <class name="com.vtiger.test.CreateVendor">
+        <test-method status="PASS" signature="beforeM()[pri:0, instance:com.vtiger.test.CreateVendor@1f28c152]" name="beforeM" is-config="true" duration-ms="7120" started-at="2019-11-13T09:17:38 IST" finished-at="2019-11-13T09:17:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeM -->
+        <test-method status="PASS" signature="createvendor()[pri:0, instance:com.vtiger.test.CreateVendor@1f28c152]" name="createvendor" duration-ms="42731" started-at="2019-11-13T09:17:46 IST" finished-at="2019-11-13T09:18:28 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[newly create vendor page is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createvendor -->
+        <test-method status="PASS" signature="afterM(org.testng.ITestResult)[pri:0, instance:com.vtiger.test.CreateVendor@1f28c152]" name="afterM" is-config="true" duration-ms="521" started-at="2019-11-13T09:18:28 IST" finished-at="2019-11-13T09:18:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createvendor status=SUCCESS method=CreateVendor.createvendor()[pri:0, instance:com.vtiger.test.CreateVendor@1f28c152] output=newly create vendor page is Displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[createvendoris pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterM -->
+        <test-method status="PASS" signature="beforeM()[pri:0, instance:com.vtiger.test.CreateVendor@1f28c152]" name="beforeM" is-config="true" duration-ms="4273" started-at="2019-11-13T09:18:29 IST" finished-at="2019-11-13T09:18:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeM -->
+        <test-method status="PASS" signature="quickcreatevendor()[pri:0, instance:com.vtiger.test.CreateVendor@1f28c152]" name="quickcreatevendor" duration-ms="20313" started-at="2019-11-13T09:18:33 IST" finished-at="2019-11-13T09:18:53 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[newly create vendor page is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- quickcreatevendor -->
+        <test-method status="PASS" signature="afterM(org.testng.ITestResult)[pri:0, instance:com.vtiger.test.CreateVendor@1f28c152]" name="afterM" is-config="true" duration-ms="182" started-at="2019-11-13T09:18:53 IST" finished-at="2019-11-13T09:18:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=quickcreatevendor status=SUCCESS method=CreateVendor.quickcreatevendor()[pri:0, instance:com.vtiger.test.CreateVendor@1f28c152] output=newly create vendor page is Displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[quickcreatevendoris pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterM -->
+        <test-method status="PASS" signature="beforeM()[pri:0, instance:com.vtiger.test.CreateVendor@1f28c152]" name="beforeM" is-config="true" duration-ms="4632" started-at="2019-11-13T09:18:54 IST" finished-at="2019-11-13T09:18:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeM -->
+        <test-method status="PASS" signature="vcatSearch()[pri:0, instance:com.vtiger.test.CreateVendor@1f28c152]" name="vcatSearch" duration-ms="16923" started-at="2019-11-13T09:18:58 IST" finished-at="2019-11-13T09:19:15 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[searched vendor with category is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- vcatSearch -->
+        <test-method status="PASS" signature="afterM(org.testng.ITestResult)[pri:0, instance:com.vtiger.test.CreateVendor@1f28c152]" name="afterM" is-config="true" duration-ms="2376" started-at="2019-11-13T09:19:15 IST" finished-at="2019-11-13T09:19:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=vcatSearch status=SUCCESS method=CreateVendor.vcatSearch()[pri:0, instance:com.vtiger.test.CreateVendor@1f28c152] output=searched vendor with category is Displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[vcatSearchis pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterM -->
+        <test-method status="PASS" signature="beforeM()[pri:0, instance:com.vtiger.test.CreateVendor@1f28c152]" name="beforeM" is-config="true" duration-ms="4881" started-at="2019-11-13T09:19:17 IST" finished-at="2019-11-13T09:19:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeM -->
+        <test-method status="PASS" signature="vemailSearch()[pri:0, instance:com.vtiger.test.CreateVendor@1f28c152]" name="vemailSearch" duration-ms="16857" started-at="2019-11-13T09:19:22 IST" finished-at="2019-11-13T09:19:39 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[searched vendor with email is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- vemailSearch -->
+        <test-method status="PASS" signature="afterM(org.testng.ITestResult)[pri:0, instance:com.vtiger.test.CreateVendor@1f28c152]" name="afterM" is-config="true" duration-ms="2176" started-at="2019-11-13T09:19:39 IST" finished-at="2019-11-13T09:19:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=vemailSearch status=SUCCESS method=CreateVendor.vemailSearch()[pri:0, instance:com.vtiger.test.CreateVendor@1f28c152] output=searched vendor with email is Displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[vemailSearchis pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterM -->
+        <test-method status="PASS" signature="beforeM()[pri:0, instance:com.vtiger.test.CreateVendor@1f28c152]" name="beforeM" is-config="true" duration-ms="4237" started-at="2019-11-13T09:19:41 IST" finished-at="2019-11-13T09:19:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeM -->
+        <test-method status="PASS" signature="vnameSearch()[pri:0, instance:com.vtiger.test.CreateVendor@1f28c152]" name="vnameSearch" duration-ms="16765" started-at="2019-11-13T09:19:46 IST" finished-at="2019-11-13T09:20:02 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[searched vendor with name is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- vnameSearch -->
+        <test-method status="PASS" signature="afterM(org.testng.ITestResult)[pri:0, instance:com.vtiger.test.CreateVendor@1f28c152]" name="afterM" is-config="true" duration-ms="2191" started-at="2019-11-13T09:20:02 IST" finished-at="2019-11-13T09:20:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=vnameSearch status=SUCCESS method=CreateVendor.vnameSearch()[pri:0, instance:com.vtiger.test.CreateVendor@1f28c152] output=searched vendor with name is Displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[vnameSearchis pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterM -->
+        <test-method status="PASS" signature="beforeM()[pri:0, instance:com.vtiger.test.CreateVendor@1f28c152]" name="beforeM" is-config="true" duration-ms="4099" started-at="2019-11-13T09:20:05 IST" finished-at="2019-11-13T09:20:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeM -->
+        <test-method status="PASS" signature="vnoSearch()[pri:0, instance:com.vtiger.test.CreateVendor@1f28c152]" name="vnoSearch" duration-ms="16425" started-at="2019-11-13T09:20:09 IST" finished-at="2019-11-13T09:20:25 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[searched vendor with vennumber is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- vnoSearch -->
+        <test-method status="PASS" signature="afterM(org.testng.ITestResult)[pri:0, instance:com.vtiger.test.CreateVendor@1f28c152]" name="afterM" is-config="true" duration-ms="2125" started-at="2019-11-13T09:20:25 IST" finished-at="2019-11-13T09:20:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=vnoSearch status=SUCCESS method=CreateVendor.vnoSearch()[pri:0, instance:com.vtiger.test.CreateVendor@1f28c152] output=searched vendor with vennumber is Displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[vnoSearchis pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterM -->
+        <test-method status="PASS" signature="beforeM()[pri:0, instance:com.vtiger.test.CreateVendor@1f28c152]" name="beforeM" is-config="true" duration-ms="4796" started-at="2019-11-13T09:20:27 IST" finished-at="2019-11-13T09:20:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeM -->
+        <test-method status="PASS" signature="vphnSearch()[pri:0, instance:com.vtiger.test.CreateVendor@1f28c152]" name="vphnSearch" duration-ms="19291" started-at="2019-11-13T09:20:32 IST" finished-at="2019-11-13T09:20:51 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[searched vendor with phoneno is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- vphnSearch -->
+        <test-method status="PASS" signature="afterM(org.testng.ITestResult)[pri:0, instance:com.vtiger.test.CreateVendor@1f28c152]" name="afterM" is-config="true" duration-ms="2139" started-at="2019-11-13T09:20:51 IST" finished-at="2019-11-13T09:20:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=vphnSearch status=SUCCESS method=CreateVendor.vphnSearch()[pri:0, instance:com.vtiger.test.CreateVendor@1f28c152] output=searched vendor with phoneno is Displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[vphnSearchis pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterM -->
+      </class> <!-- com.vtiger.test.CreateVendor -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

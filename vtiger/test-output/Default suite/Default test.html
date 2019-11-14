@@ -1,0 +1,163 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Nov 13 09:17:38 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>195 seconds (195138 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.vtiger.test.CreateVendor.createvendor()'><b>createvendor</b><br>Test class: com.vtiger.test.CreateVendor<br/>
+<a href="#Output-1756819670" onClick='toggleBox("Output-1756819670", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1756819670" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1756819670">
+newly create vendor page is Displayed<br/>
+</div>
+</td>
+<td></td>
+<td>42</td>
+<td>com.vtiger.test.CreateVendor@1f28c152</td></tr>
+<tr>
+<td title='com.vtiger.test.CreateVendor.quickcreatevendor()'><b>quickcreatevendor</b><br>Test class: com.vtiger.test.CreateVendor<br/>
+<a href="#Output-144699438" onClick='toggleBox("Output-144699438", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-144699438" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-144699438">
+newly create vendor page is Displayed<br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>com.vtiger.test.CreateVendor@1f28c152</td></tr>
+<tr>
+<td title='com.vtiger.test.CreateVendor.vcatSearch()'><b>vcatSearch</b><br>Test class: com.vtiger.test.CreateVendor<br/>
+<a href="#Output-991671211" onClick='toggleBox("Output-991671211", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-991671211" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-991671211">
+searched vendor with category is Displayed<br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>com.vtiger.test.CreateVendor@1f28c152</td></tr>
+<tr>
+<td title='com.vtiger.test.CreateVendor.vemailSearch()'><b>vemailSearch</b><br>Test class: com.vtiger.test.CreateVendor<br/>
+<a href="#Output-401891515" onClick='toggleBox("Output-401891515", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-401891515" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-401891515">
+searched vendor with email is Displayed<br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>com.vtiger.test.CreateVendor@1f28c152</td></tr>
+<tr>
+<td title='com.vtiger.test.CreateVendor.vnameSearch()'><b>vnameSearch</b><br>Test class: com.vtiger.test.CreateVendor<br/>
+<a href="#Output-838800272" onClick='toggleBox("Output-838800272", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-838800272" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-838800272">
+searched vendor with name is Displayed<br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>com.vtiger.test.CreateVendor@1f28c152</td></tr>
+<tr>
+<td title='com.vtiger.test.CreateVendor.vnoSearch()'><b>vnoSearch</b><br>Test class: com.vtiger.test.CreateVendor<br/>
+<a href="#Output-81269359" onClick='toggleBox("Output-81269359", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-81269359" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-81269359">
+searched vendor with vennumber is Displayed<br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>com.vtiger.test.CreateVendor@1f28c152</td></tr>
+<tr>
+<td title='com.vtiger.test.CreateVendor.vphnSearch()'><b>vphnSearch</b><br>Test class: com.vtiger.test.CreateVendor<br/>
+<a href="#Output-274426173" onClick='toggleBox("Output-274426173", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-274426173" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-274426173">
+searched vendor with phoneno is Displayed<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>com.vtiger.test.CreateVendor@1f28c152</td></tr>
+</table><p>
+</body>
+</html>
